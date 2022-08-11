@@ -1,3 +1,42 @@
 *{
   font-family:'Inter', sans-serif;
+  margin: 0;
+  box-sizing: border-box;
 }
+
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 31px 27px;
+  background: #21222A;
+}
+
+.logo{
+  display: flex;
+}
+.react-icon{
+  width: 29.93px;
+  height: 28.93px;
+}
+h2{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.2535px;
+  line-height: 27px;
+  letter-spacing: -0.05rem;
+  color: #61DAFB;
+}
+h3{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  color: #DEEBF8;
+  align-items: center;
+}
+
+
