@@ -40,12 +40,14 @@ h3 {
 }
 .main {
   background: #282d35;
+  background-image: url("./images/react-icon-large.png");
+  background-repeat: no-repeat;
+  background-position: right center;
   height: 100vh;
 }
 h1 {
   padding-top: 57px;
   padding-left: 27px;
-  margin-bottom: 46px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -55,20 +57,23 @@ h1 {
   color: #ffffff;
 }
 ul{
+  margin-top: 46px;
   padding-left: 74px;
   list-style: disc;
-
+  max-width: 450px;
 }
 li {
   margin-bottom: 20px;
-  
+
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  color: #61dafb;
-}
-span{
   color: #ffffff;
 }
+li::marker{
+  font-size: 1.4rem;
+  color: #61dafb;
+}
+
