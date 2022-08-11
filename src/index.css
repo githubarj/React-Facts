@@ -56,15 +56,19 @@ h1 {
 }
 ul{
   padding-left: 74px;
+  list-style: disc;
+
 }
 li {
   margin-bottom: 20px;
-
+  
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-
+  color: #61dafb;
+}
+span{
   color: #ffffff;
 }
